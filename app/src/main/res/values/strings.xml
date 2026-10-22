@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Volume Booster</string>
+    <string name="enable">Boost enabled</string>
+    <string name="percent">%1$d%%</string>
+    <string name="gain_db">+%1$.1f dB</string>
+    <string name="media_volume">System media volume</string>
+    <string name="off">Off</string>
+    <string name="stop">Stop</string>
+    <string name="channel_name">Volume boost</string>
+    <string name="notif_title">Volume boost %1$d%%</string>
+    <string name="notif_text">Tap to adjust</string>
+    <string name="warning_title">Loud audio</string>
+    <string name="warning_text">Boosting above 200% (and especially toward 600%) can distort sound heavily, damage phone speakers, and harm your hearing with headphones. Start with the media volume low and raise it slowly.</string>
+    <string name="understand">I understand</string>
+    <string name="attach_failed">This device refused the global audio effect. Boost will only apply to players that announce their audio session (most music and video apps do).</string>
+    <string name="hint">Boost applies to all audio from your phone. Some apps or devices may ignore it. Pull down Quick Settings and edit the tiles to add a Volume Booster toggle.</string>
+</resources>
