@@ -14,4 +14,25 @@
     <string name="understand">I understand</string>
     <string name="attach_failed">This device refused the global audio effect. Boost will only apply to players that announce their audio session (most music and video apps do).</string>
     <string name="hint">Boost applies to all audio from your phone. Some apps or devices may ignore it. Pull down Quick Settings and edit the tiles to add a Volume Booster toggle.</string>
+    <string name="minus" formatted="false">− 25%</string>
+    <string name="plus" formatted="false">+ 25%</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="bass">Bass</string>
+    <string name="mid">Mid</string>
+    <string name="treble">Treble</string>
+    <string name="bass_boost">Bass boost</string>
+    <string name="db_value">%1$+d dB</string>
+    <string name="preset_flat">Flat</string>
+    <string name="preset_voice">Voice</string>
+    <string name="preset_movies">Movies</string>
+    <string name="preset_music">Music</string>
+    <string name="preset_bass">Bass</string>
+    <string name="volume_keys_label">Volume buttons</string>
+    <string name="volume_keys_switch">Volume buttons control boost</string>
+    <string name="volume_keys_hint" formatted="false">When media volume is at maximum, volume up raises the boost by 25% and volume down lowers it again. Needs the Volume Booster accessibility service, which only reads the volume keys.</string>
+    <string name="volume_keys_description">Lets the volume buttons raise the boost past the normal maximum while media plays. It only reads the volume up and volume down keys, and does not read the screen or anything you type.</string>
+    <string name="volume_keys_dialog_title">Turn on in Accessibility settings</string>
+    <string name="volume_keys_dialog_on">In the next screen, open Volume Booster (it may be under Installed apps or Downloaded apps) and turn it on.\n\nIf Android says it is a restricted setting: open App info for Volume Booster, tap ⋮ (top right), choose Allow restricted settings, then try again.</string>
+    <string name="volume_keys_dialog_off">In the next screen, open Volume Booster and turn it off.</string>
+    <string name="open_settings">Open settings</string>
 </resources>

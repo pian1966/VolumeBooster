@@ -1,7 +1,6 @@
 package com.example.volumebooster
 
 import android.annotation.SuppressLint
-import android.annotation.TargetApi
 import android.app.PendingIntent
 import android.content.Intent
 import android.os.Build
@@ -9,7 +8,6 @@ import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 
 /** Quick Settings tile to toggle the boost without opening the app. */
-@TargetApi(Build.VERSION_CODES.N)
 class BoostTileService : TileService() {
 
     override fun onStartListening() = refresh()
