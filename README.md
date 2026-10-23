@@ -1,9 +1,15 @@
 # Volume Booster
 
-Android app that boosts audio output up to 600% using the platform `LoudnessEnhancer` effect.
+Android app that boosts audio output up to 600% using the platform `LoudnessEnhancer` effect, with an equalizer and bass boost.
+
+<img src="docs/main-screen.png" alt="Volume Booster main screen" width="320">
+
+*Mockup of the main screen (version 1.2), drawn from the app's layout. Not a screenshot from a real phone.*
 
 - Boost slider from 100% to 600% (600% ≈ +15.6 dB) with presets
-- Runs as a foreground service with a notification and Stop action
+- Equalizer (bass, mid, treble) with Flat, Voice, Movies, Music and Bass presets, plus bass boost
+- Volume buttons keep raising the boost once media volume is at maximum (optional accessibility service)
+- Runs as a foreground service with a notification: −25%, +25% and Stop
 - Quick Settings tile to toggle the boost
 - System media volume slider
 - Warning before enabling more than 200%
