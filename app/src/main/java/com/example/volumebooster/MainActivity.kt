@@ -57,6 +57,9 @@ class MainActivity : Activity(), SharedPreferences.OnSharedPreferenceChangeListe
         trebleValue = findViewById(R.id.trebleValue)
         bassBoostValue = findViewById(R.id.bassBoostValue)
 
+        findViewById<TextView>(R.id.versionLabel).text =
+            getString(R.string.version, packageManager.getPackageInfo(packageName, 0).versionName)
+
         // SeekBar has no min below API 26, so offset by MIN_PERCENT.
         boostBar.max = BoostService.MAX_PERCENT - BoostService.MIN_PERCENT
         boostBar.setOnSeekBarChangeListener(object : SimpleSeekListener() {

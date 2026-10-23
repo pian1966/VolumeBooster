@@ -17,6 +17,13 @@
             android:textSize="28sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/versionLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.7"
+            android:textSize="13sp" />
+
         <Switch
             android:id="@+id/enableSwitch"
             android:layout_width="match_parent"
