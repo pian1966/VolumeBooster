@@ -4,11 +4,11 @@ Android app that boosts audio output up to 600% using the platform `LoudnessEnha
 
 <img src="docs/main-screen.png" alt="Volume Booster main screen" width="320">
 
-*Mockup of the main screen (version 1.2), drawn from the app's layout. Not a screenshot from a real phone.*
+*Mockup of the main screen (version 1.2), drawn from the app's layout. Not a screenshot from a real phone. Version 1.3 hides the Volume buttons section.*
 
 - Boost slider from 100% to 600% (600% ≈ +15.6 dB) with presets
 - Equalizer (bass, mid, treble) with Flat, Voice, Movies, Music and Bass presets, plus bass boost
-- Volume buttons keep raising the boost once media volume is at maximum (optional accessibility service)
+- Volume buttons controlling the boost: **suspended in 1.3**, because phones may block sideloaded apps that use an accessibility service. The code is kept in `VolumeKeyService.kt`; see the note in `AndroidManifest.xml` to restore it.
 - Runs as a foreground service with a notification: −25%, +25% and Stop
 - Quick Settings tile to toggle the boost
 - System media volume slider

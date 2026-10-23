@@ -39,6 +39,10 @@
             </intent-filter>
         </service>
 
+        <!--
+            Volume-buttons feature suspended: phones may block installing sideloaded apps that
+            declare an accessibility service. To restore it, uncomment this service and set
+            volumeKeysSection to visible in activity_main.xml.
         <service
             android:name=".VolumeKeyService"
             android:exported="true"
@@ -51,5 +55,6 @@
                 android:name="android.accessibilityservice"
                 android:resource="@xml/volume_keys" />
         </service>
+        -->
     </application>
 </manifest>
